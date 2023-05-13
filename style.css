@@ -1,15 +1,19 @@
 header{
-    background-color: rgb(255, 230, 0);
-
+    background-color: rgb(255, 254, 255); /* cor de funfo */
+max-width: 1000px; /* largura maxima - RESPONSIVO*/
+margin: auto; /* SEMTRALIZA*/ 
+height: 300px;
 }
+
 div#capa{
-background-color: brown;
-width: 400px;
-height: 100px;
+background-color: rgb(119, 29, 146); /*cor de fundo*/
+width: 100%; /*largura*/
+height: 300px;/*altura*/
+background-image: url('capa.webp'); /* coloca uma imagem de fundo na div*/
+background-size: cover; /* ajusta o tamanho da imagem*/
+background-repeat: no-repeat;/*não repete a imagem*/
+background-position: center;/*posiciona  a imagem no meio da dive*/
+color: aliceblue;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-div#sociais{
-    background-color: blue;
-    width: 300px;
-    height: 50px;
-}
