@@ -9,7 +9,7 @@ div#capa{
 background-color: rgb(119, 29, 146); /*cor de fundo*/
 width: 100%; /*largura*/
 height: 300px;/*altura*/
-background-image: url('capa.webp'); /* coloca uma imagem de fundo na div*/
+background-image: url(images/abstract-lines-technology-on-blue-background-chipset-concept-vector.webp); /* coloca uma imagem de fundo na div*/
 background-size: cover; /* ajusta o tamanho da imagem*/
 background-repeat: no-repeat;/*não repete a imagem*/
 background-position: center;/*posiciona  a imagem no meio da dive*/
@@ -17,3 +17,9 @@ color: aliceblue;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+img.sociais
+{width: 30px;
+    filter: invert(1) opacity(0.7);-}
+
+img.sociais:hover
+{ filter: invert(1) opacity(1);}
