@@ -8,7 +8,7 @@ div#capa{
 background-color: rgb(119, 29, 146); /*cor de fundo*/
 width: 200%; /*faz a div ocupar 100% da larguea maxima da header*/
 height: 200px;/*altura da capa*/
-background-image: url(images/abstract-lines-technology-on-blue-background-chipset-concept-vector.webp); /* coloca uma imagem de fundo na div*/
+background-image: url('images/341000247_6013922185359753_5675285357584106128_n.jpg'); coloca uma imagem de fundo na div*/
 background-size: cover; /* ajusta o tamanho da imagem*/
 background-repeat: no-repeat;/*não repete a imagem*/
 background-position: center;/*posiciona  a imagem no meio da dive*/
