@@ -1,25 +1,64 @@
-header{
-    background-color: rgb(255, 254, 255); /* cor de funfo */
-max-width: 1000px; /* largura maxima - RESPONSIVO*/
-margin: auto; /* SEMTRALIZA*/ 
-height: 300px;
+header, main, footer{
+    max-width: 1000px; /*largura maxima - responsivo*/
+    margin: auto; /* centraliza*/ 
+    /*height: 300px;*/
 }
 
 div#capa{
 background-color: rgb(119, 29, 146); /*cor de fundo*/
-width: 100%; /*largura*/
-height: 300px;/*altura*/
+width: 200%; /*faz a div ocupar 100% da larguea maxima da header*/
+height: 200px;/*altura da capa*/
 background-image: url(images/abstract-lines-technology-on-blue-background-chipset-concept-vector.webp); /* coloca uma imagem de fundo na div*/
 background-size: cover; /* ajusta o tamanho da imagem*/
 background-repeat: no-repeat;/*não repete a imagem*/
 background-position: center;/*posiciona  a imagem no meio da dive*/
 color: aliceblue;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: relative; /*posicionamento do paideve ser relativo*/
+display: flex; /* deixa os elementos internos  um abaixo do outro de cima para baixo*/ 
+justify-content: center; /* alimhamento vertical*/ 
+align-items: baseline; /* alinhamento horizontal*/
 }
 
-img.sociais
-{width: 30px;
-    filter: invert(1) opacity(0.7);-}
+#capa>h1{ 
+    text-shadow: 3px 3px 3px black; /* sombra do texto*/
+}
+#capa>p{ 
+    position: absolute; /* permite que o elemento mude de lugar*/ 
+    top: 165px;
+    background-color: black; /* configura a cor de fundo do paragrafo */
+    padding: 5px; /* define o espaçamento interno*/
+}
 
-img.sociais:hover
-{ filter: invert(1) opacity(1);}
+div#sociais{
+    /*background-color:rgb(4, 218, 247); /* temporario*/
+    width: 165px;
+    /*position:absolute; /posicionamento do filho deve ser absoluto*/
+    /*bottom: 20px/*
+    /*right: 20px*/
+    display: flex; /*desixa o elemento interno "solto" para serem posicionados*/
+    justify-content: space-between; /* distribui os elementos internos na horizontal*/
+}
+
+img.sociais{
+    width: 30px; /* define a largura da imagem*/
+    filter:invert(1) opacity(7) drop-shadow(0px 0px 0px rgb(4, 186, 241)); /* aplica filtro a imagem*/
+}
+
+img.sociais:hover{ /*quando passar o mause por cima*/
+    filter: invert(1) opacity(1);
+}
+
+footer{
+    background-color: rgb(12, 89, 141);
+    color: rgb(255, 253, 250);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.fotos{
+    width: 300px;
+    margin: 0px;
+}
